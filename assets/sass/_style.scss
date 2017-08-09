@@ -280,399 +280,432 @@ nav a:hover {
 /* Div que se mostrará cuando no se use particles.js, es decir
  *	cuando se acceda a la página desde un dispositivo móvil
  */
-#estrellas {
-	position: absolute;
-	width: 100vw;
-	height: 100vh;
-	background: url("https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/estrellas.JPG") no-repeat center;
-	background-size: cover;
-	z-index: -9;
-	opacity: 0;
-}
+ #estrellas {
+ 	position: absolute;
+ 	width: 100vw;
+ 	height: 100vh;
+ 	background: url("https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/estrellas.JPG") no-repeat center;
+ 	background-size: cover;
+ 	z-index: -9;
+ 	opacity: 0;
+ }
 
-/* Contenido principal del hader, con el título */
-#contenidoHeader {
-	height: 100vh;
-	width: 100vw;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	    flex-direction: column;
-	-ms-flex-pack: center;
-	    justify-content: center;
-	-ms-flex-align: center;
-	    align-items: center;
-	text-align: center;
-	position: relative;
-	top: -10vh;
-}
+ /* Contenido principal del hader, con el título */
+ #contenidoHeader {
+ 	height: 100vh;
+ 	width: 100vw;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-direction: column;
+ 	flex-direction: column;
+ 	-ms-flex-pack: center;
+ 	justify-content: center;
+ 	-ms-flex-align: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	position: relative;
+ 	top: -10vh;
+ }
 
-/* Todos los elementos del contenido principal estarán sobre el resto del fondo */
-#contenidoHeader * {
-	z-index: 30;
-}
+ /* Todos los elementos del contenido principal estarán sobre el resto del fondo */
+ #contenidoHeader * {
+ 	z-index: 30;
+ }
 
-/* Ornamentos del hader */
-.ornament {
-	fill: rgba(255, 255, 255, 1);
-}
+ /* Ornamentos del hader */
+ .ornament {
+ 	fill: rgba(255, 255, 255, 1);
+ }
 
-/* Contenido de los ornamentos */
-.ornamentCont {
-	width: 15em;
-}
+ /* Contenido de los ornamentos */
+ .ornamentCont {
+ 	width: 15em;
+ }
 
-/* Título de la página en el header */
-#contenidoHeader h1 {
-	font-weight: 100;
-	font-size: 5em;
-	color: #FFF;
-	line-height: 0.8em;
-	letter-spacing: -0.06em;
-	padding: 0.2em;
-	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
+ /* Título de la página en el header */
+ #contenidoHeader h1 {
+ 	margin-top: -9%;
+ 	font-weight: 700;
+ 	font-size: 5em;
+ 	color: #FFF;
+ 	line-height: 0.8em;
+ 	letter-spacing: -0.06em;
+ 	padding: 0.2em;
+ 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+ }
 
-/* 'Ruiz' en el título */
-#contenidoHeader b {
-	font-weight: 300;
-}
+ /* 'Ruiz' en el título */
+ #contenidoHeader b {
+ 	font-weight: 700;
+ }
 
-/* Subtítulo del header */
-#contenidoHeader h2 {
-	font-weight: 300;
-	font-size: 1.5rem;
-	color: #FFF;
-	line-height: 0.8em;
-	letter-spacing: -0.04em;
-	padding: 0.5em 3em;
-	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
+ /* Subtítulo del header */
+ #contenidoHeader h2 {
+ 	font-weight: 300;
+ 	font-size: 1.5rem;
+ 	margin-top: -1%;
+ 	color: #FFF;
+ 	line-height: 0.8em;
+ 	letter-spacing: -0.04em;
+ 	padding: 0.5em 3em;
+ 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+ }
 
-/* Sección 'Sobre mí' */
-#about {
-	background-color: #0A0618;
-	color: white;
-	padding: 20px;
-	text-align: center;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	    flex-direction: column;
-	-ms-flex-pack: center;
-	    justify-content: center;
-	-ms-flex-align: center;
-	    align-items: center;
-}
+ /* Sección 'Sobre mí' */
+ #about {
+ 	background-color: #0A0618;
+ 	color: white;
+ 	podding: 90px;
+ 	text-align: center;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-direction: column;
+ 	flex-direction: column;
+ 	-ms-flex-pack: center;
+ 	justify-content: center;
+ 	-ms-flex-align: center;
+ 	align-items: center;
+ }
+ .fperfil{
+ 	width: 23%;
+ 	margin-top: 30px;
+ 	margin-right: 60%;
+ }
 
-/* Elemento H1 de cada una de la secciones (su título) */
-.seccion {
-	font-weight: 100;
-	font-size: 2.8em;
-	text-align: center;
-}
+ .seccion-1 {
+ 	font-weight: 100;
+ 	font-size: 2.8em;
+ 	text-align: center;
+ 	margin-left: 18%;
+ 	margin-top: -21%;
+ 	animation: fadeUpIn 4s;
+ 	-webkit-animation: fadeUpIn 4s;
 
-/* Línea inferior al título de cada sección */
-.borde {
-	width: 6em;
-	height: 0.25em;
-	background-color: #E0C5A4;
-	border-radius: 10px;
-	margin-top: 0.6em;
-}
+ }
+ @-webkit-keyframes fadeUpIn /* Safari and Chrome */
+ {
+ 	from { opacity:0; top:150px; }
+ 	to { opacity:1; top: 70px; }
+ }
 
-/* Texto de la sección 'Sobre mí' */
-#about p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 1.1em;
-	padding: 1.8em;
-	max-width: 800px;
-	letter-spacing: 0.08em;
-	line-height: 1.5em;
-}
+ .borde-1 {
+ 	width: 8em;
+ 	height: 0.25em;
+ 	background-color: #E0C5A4;
+ 	border-radius: 10px;
+ 	margin-left: 18%;
+    margin-top: -.4em;
+ }
+ .mi {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 300;
+ 	font-size: 1.1em;
+ 	padding: 1.8em;
+ 	max-width: 800px;
+ 	letter-spacing: 0.08em;
+ 	line-height: 1.5em;
+ 	margin-bottom: 10%;
+ 	margin-left: 33%;
+ }
+ /* Elemento H1 de cada una de la secciones (su título) */
+ .seccion {
+ 	font-weight: 100;
+ 	font-size: 2.8em;
+ 	text-align: center;
+ }
 
-/* Ilustración de 'Sobre mí' */
-#girl {
-	width: 70vw;
-	max-width: 500px;
-	height: auto;
-	padding: 1.7em 0;
-}
+ /* Línea inferior al título de cada sección */
+ .borde {
+ 	width: 6em;
+ 	height: 0.25em;
+ 	background-color: #E0C5A4;
+ 	border-radius: 10px;
+ 	margin-top: 0.6em;
+ }
 
-/* Sección 'Skills' */
-#skills {
-	background-size: 90vmin;
-	z-index: 0;
-}
+ /* Texto de la sección 'Sobre mí' */
 
-/* Degradado que se mostrará en el fondo de 'Skills' */
-#skillsFondo {
-	background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(218, 219, 221,0.9));
-	padding-top: 5em;
-}
+ /* Ilustración de 'Sobre mí' */
+ #girl {
+ 	width: 70vw;
+ 	max-width: 500px;
+ 	height: auto;
+ 	padding: 1.7em 0;
+ }
 
-/* Contenido de la sección */
-#skillsContenido {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	    flex-direction: column;
-	-ms-flex-pack: center;
-	    justify-content: center;
-	-ms-flex-align: center;
-	    align-items: center;
-}
+ /* Sección 'Skills' */
+ #skills {
+ 	background-size: 90vmin;
+ 	z-index: 0;
+ }
 
-/* Título de Skills */
-#skillsContenido h1 {
-	font-weight: 300;
-}
+ /* Degradado que se mostrará en el fondo de 'Skills' */
+ #skillsFondo {
+ 	background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(218, 219, 221,0.9));
+ 	padding-top: 5em;
+ }
 
-/* Barras de Skills */
-#bars {
-	width: 90vw;
-	max-width: 700px;
-	margin: 3em;
-}
+ /* Contenido de la sección */
+ #skillsContenido {
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-direction: column;
+ 	flex-direction: column;
+ 	-ms-flex-pack: center;
+ 	justify-content: center;
+ 	-ms-flex-align: center;
+ 	align-items: center;
+ }
 
-/* Porcentaje que se muestra en cada barra */
-.contador:after{
-	content: "%";
-}
+ /* Título de Skills */
+ #skillsContenido h1 {
+ 	font-weight: 300;
+ }
 
-/* Cada una de las barras de skills */
-.skillbar {
-	position: relative;
-	display: block;
-	margin-bottom: 1.6em;
-	width: 100%;
-	background: rgba(193,193,193,0.7);
-	height: 2.7em;
-	border-radius: 3px;
-	transition: 0.4s linear;
-	transition-property: width, background-color;
-}
+ /* Barras de Skills */
+ #bars {
+ 	width: 90vw;
+ 	max-width: 700px;
+ 	margin: 3em;
+ }
 
-.skillTitle {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 7em;
-	font-weight: bold;
-	font-size: 1em;
-	color: #ffffff;
-	background: #6adcfa;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-	text-align: center;
-}
+ /* Porcentaje que se muestra en cada barra */
+ .contador:after{
+ 	content: "%";
+ }
 
-.skillTitle span {
-	display: block;
-	background: rgba(0, 0, 0, 0.1);
-	height: 2.7em;
-	line-height: 2.7em;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-}
+ /* Cada una de las barras de skills */
+ .skillbar {
+ 	position: relative;
+ 	display: block;
+ 	margin-bottom: 1.6em;
+ 	width: 100%;
+ 	background: rgba(193,193,193,0.7);
+ 	height: 2.7em;
+ 	border-radius: 3px;
+ 	transition: 0.4s linear;
+ 	transition-property: width, background-color;
+ }
 
-.skillBarra {
-	height: 2.7em;
-	width: 0px;
-	background: #6adcfa;
-	border-radius: 3px;
-}
+ .skillTitle {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 7em;
+ 	font-weight: bold;
+ 	font-size: 1em;
+ 	color: #ffffff;
+ 	background: #6adcfa;
+ 	border-top-left-radius: 3px;
+ 	border-bottom-left-radius: 3px;
+ 	text-align: center;
+ }
 
-.porcentaje {
-	position: absolute;
-	right: 1em;
-	top: 0;
-	font-size: 1em;
-	height: 2.7em;
-	line-height: 2.7em;
-	color: rgba(0, 0, 0, 0.6);
-}
+ .skillTitle span {
+ 	display: block;
+ 	background: rgba(0, 0, 0, 0.1);
+ 	height: 2.7em;
+ 	line-height: 2.7em;
+ 	border-top-left-radius: 3px;
+ 	border-bottom-left-radius: 3px;
+ }
 
-/* Sección 'Portfolio' */
-#portfolio {
-	width: 100vw;
-	background-color: #2F527A;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	    flex-direction: column;
-	-ms-flex-pack: center;
-	    justify-content: center;
-	-ms-flex-align: center;
-	    align-items: center;
-	text-align: center;
-	position: relative;
-	padding: 1em 0;
-	padding-bottom: 4em;
-}
+ .skillBarra {
+ 	height: 2.7em;
+ 	width: 0px;
+ 	background: #6adcfa;
+ 	border-radius: 3px;
+ }
 
-/* Título de la sección */
-#portfolio h1 {
-	font-weight: 300;
-	color: #D5D5D8;
-}
+ .porcentaje {
+ 	position: absolute;
+ 	right: 1em;
+ 	top: 0;
+ 	font-size: 1em;
+ 	height: 2.7em;
+ 	line-height: 2.7em;
+ 	color: rgba(0, 0, 0, 0.6);
+ }
 
-/* Elementos del portfolio */
-#items {
-	width: 90vw;
-	margin: auto;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: row;
-	    flex-direction: row;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
+ /* Sección 'Portfolio' */
+ #portfolio {
+ 	width: 100vw;
+ 	background-color: #2F527A;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-direction: column;
+ 	flex-direction: column;
+ 	-ms-flex-pack: center;
+ 	justify-content: center;
+ 	-ms-flex-align: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	position: relative;
+ 	padding: 1em 0;
+ 	padding-bottom: 4em;
+ }
 
-}
+ /* Título de la sección */
+ #portfolio h1 {
+ 	font-weight: 300;
+ 	color: #D5D5D8;
+ }
 
-/* Cada uno de los elementos */
-.item {
-	height: 20em;
-	width: 20em;
-	background-color: red;
-	margin: 2em;
-	position: relative;
-	cursor: pointer;
-	border-radius: 5px;
-}
+ /* Elementos del portfolio */
+ #items {
+ 	width: 90vw;
+ 	margin: auto;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-direction: row;
+ 	flex-direction: row;
+ 	-ms-flex-wrap: wrap;
+ 	flex-wrap: wrap;
+ 	-ms-flex-pack: distribute;
+ 	justify-content: space-around;
+
+ }
+
+ /* Cada uno de los elementos */
+ .item {
+ 	height: 20em;
+ 	width: 20em;
+ 	background-color: red;
+ 	margin: 2em;
+ 	position: relative;
+ 	cursor: pointer;
+ 	border-radius: 5px;
+ }
 
 /* Información del elemento. Será visible cuando se pase
  * el ratón por encima
  */
-.infoItem {
-	position: absolute;
-	height: calc(100% - 2em);
-	width: calc(100% - 2em);
-	background-color: rgba(0,28,52,0.8);
-	opacity: 0;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	    flex-direction: column;
-	-ms-flex-pack: center;
-	    justify-content: center;
-	-ms-flex-align: center;
-	    align-items: center;
-	padding: 1em;
-	color: #FFF;
-	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-	border-radius: 5px;
-}
+ .infoItem {
+ 	position: absolute;
+ 	height: calc(100% - 2em);
+ 	width: calc(100% - 2em);
+ 	background-color: rgba(0,28,52,0.8);
+ 	opacity: 0;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-direction: column;
+ 	flex-direction: column;
+ 	-ms-flex-pack: center;
+ 	justify-content: center;
+ 	-ms-flex-align: center;
+ 	align-items: center;
+ 	padding: 1em;
+ 	color: #FFF;
+ 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+ 	border-radius: 5px;
+ }
 
-/* Cuando se pase el ratón por el item se hará visible */
-.infoItem:hover {
-	opacity: 1;
-	transition: 0.3s;
-	transition-timing-function: ease-in;
-}
+ /* Cuando se pase el ratón por el item se hará visible */
+ .infoItem:hover {
+ 	opacity: 1;
+ 	transition: 0.3s;
+ 	transition-timing-function: ease-in;
+ }
 
-/* Título del item */
-.infoItem h1 {
-	padding-bottom: 0.3em;
-	font-size: 2.2em;
-}
+ /* Título del item */
+ .infoItem h1 {
+ 	padding-bottom: 0.3em;
+ 	font-size: 2.2em;
+ }
 
-/* Icono de enlace del item */
-.fa-link {
-	font-size: 2em;
-	padding: 0.5em;
-}
+ /* Icono de enlace del item */
+ .fa-link {
+ 	font-size: 2em;
+ 	padding: 0.5em;
+ }
 
-/* Cada elemento tendrá como fondo una imagen del proyecto */
-#simon {
-	background: url(https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/simon.PNG) no-repeat center;
-	background-size: cover;
-}
+ /* Cada elemento tendrá como fondo una imagen del proyecto */
+ #simon {
+ 	background: url(https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/simon.PNG) no-repeat center;
+ 	background-size: cover;
+ }
 
-#iwata {
-	background: url(https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/iwata.PNG) no-repeat center;
-	background-size: cover;
-}
+ #iwata {
+ 	background: url(https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/iwata.PNG) no-repeat center;
+ 	background-size: cover;
+ }
 
-#majoras {
-	background: url(https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/majoras.PNG) no-repeat center;
-	background-size: cover;
-}
+ #majoras {
+ 	background: url(https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/majoras.PNG) no-repeat center;
+ 	background-size: cover;
+ }
 
-#teorema {
-	background: url(https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/teorema.PNG) no-repeat center;
-	background-size: cover;
-}
+ #teorema {
+ 	background: url(https://raw.githubusercontent.com/YuneVK/YuneVK.github.io/master/img/teorema.PNG) no-repeat center;
+ 	background-size: cover;
+ }
 
-/* Div que separa la sección 'Portfolio' de 'Contacto' */
-#separadorContacto {
-	width: 100vw;
-	height: 4em;
-	background: url(../img/separador3.svg) no-repeat top center;
-	background-size: cover;
-	z-index: 1;
-	position: relative;
-	margin-top: -4em;
-	
-}
+ /* Div que separa la sección 'Portfolio' de 'Contacto' */
+ #separadorContacto {
+ 	width: 100vw;
+ 	height: 4em;
+ 	background: url(../img/separador3.svg) no-repeat top center;
+ 	background-size: cover;
+ 	z-index: 1;
+ 	position: relative;
+ 	margin-top: -4em;
 
-/* Sección 'Contacto' */
-#contacto {
-	background-color: #031427;
-	padding: 1.5em;
-	text-align: center;
-	color: #D5D5D8;
-}
+ }
 
-/* Título de la sección */
-#contacto h1 {
-	font-weight: 300;
-	
-}
+ /* Sección 'Contacto' */
+ #contacto {
+ 	background-color: #031427;
+ 	padding: 1.5em;
+ 	text-align: center;
+ 	color: #D5D5D8;
+ }
 
-/* Iconos de las redes sociales */
-#social {
-	padding: 2em;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: row;
-	    flex-direction: row;
-	-ms-flex-pack: center;
-	    justify-content: center;
-}
+ /* Título de la sección */
+ #contacto h1 {
+ 	font-weight: 300;
 
-/* Cada uno de los iconos */
-#social * {
-	color: #D5D5D8;
-	font-size: 1.5em;
-	padding: 0 0.3em;
-}
+ }
 
-#contacto p {
-	padding: 0.5em;
-}
+ /* Iconos de las redes sociales */
+ #social {
+ 	padding: 2em;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-direction: row;
+ 	flex-direction: row;
+ 	-ms-flex-pack: center;
+ 	justify-content: center;
+ }
 
-#contacto a {
-	color: #D5D5D8;
-}
+ /* Cada uno de los iconos */
+ #social * {
+ 	color: #D5D5D8;
+ 	font-size: 1.5em;
+ 	padding: 0 0.3em;
+ }
 
-@media (max-width: 768px) {
-	#contenidoHeader h1 {
-		font-size: 4em;
-	}
+ #contacto p {
+ 	padding: 0.5em;
+ }
 
-	.ornamentCont {
-		width: 10em;
-	}
+ #contacto a {
+ 	color: #D5D5D8;
+ }
 
-	#contenidoHeader h2 {
-		font-size: 1.2em;
-	}
+ @media (max-width: 768px) {
+ 	#contenidoHeader h1 {
+ 		font-size: 4em;
+ 	}
 
-	#about h1 {
-		font-size: 2.5em;
-	}
-}
+ 	.ornamentCont {
+ 		width: 10em;
+ 	}
+
+ 	#contenidoHeader h2 {
+ 		font-size: 1.2em;
+ 	}
+
+ 	#about h1 {
+ 		font-size: 2.5em;
+ 	}
+ }
