@@ -394,8 +394,9 @@ nav a:hover {
  	background-color: #E0C5A4;
  	border-radius: 10px;
  	margin-left: 18%;
-    margin-top: -.4em;
+ 	margin-top: -.4em;
  }
+  /* Texto de la sección 'Sobre mí' */
  .mi {
  	font-family: 'Open Sans', sans-serif;
  	font-weight: 300;
@@ -423,26 +424,11 @@ nav a:hover {
  	margin-top: 0.6em;
  }
 
- /* Texto de la sección 'Sobre mí' */
-
- /* Ilustración de 'Sobre mí' */
- #girl {
- 	width: 70vw;
- 	max-width: 500px;
- 	height: auto;
- 	padding: 1.7em 0;
- }
-
- /* Sección 'Skills' */
- #skills {
- 	background-size: 90vmin;
- 	z-index: 0;
- }
-
  /* Degradado que se mostrará en el fondo de 'Skills' */
  #skillsFondo {
  	background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(218, 219, 221,0.9));
  	padding-top: 5em;
+ 	margin-bottom: 5em;
  }
 
  /* Contenido de la sección */
@@ -455,6 +441,11 @@ nav a:hover {
  	justify-content: center;
  	-ms-flex-align: center;
  	align-items: center;
+ 	& li{
+ 		display: inline-block;
+ 		margin: 6px;
+ 		font-size: 60px;
+ 	}
  }
 
  /* Título de Skills */
@@ -462,70 +453,6 @@ nav a:hover {
  	font-weight: 300;
  }
 
- /* Barras de Skills */
- #bars {
- 	width: 90vw;
- 	max-width: 700px;
- 	margin: 3em;
- }
-
- /* Porcentaje que se muestra en cada barra */
- .contador:after{
- 	content: "%";
- }
-
- /* Cada una de las barras de skills */
- .skillbar {
- 	position: relative;
- 	display: block;
- 	margin-bottom: 1.6em;
- 	width: 100%;
- 	background: rgba(193,193,193,0.7);
- 	height: 2.7em;
- 	border-radius: 3px;
- 	transition: 0.4s linear;
- 	transition-property: width, background-color;
- }
-
- .skillTitle {
- 	position: absolute;
- 	top: 0;
- 	left: 0;
- 	width: 7em;
- 	font-weight: bold;
- 	font-size: 1em;
- 	color: #ffffff;
- 	background: #6adcfa;
- 	border-top-left-radius: 3px;
- 	border-bottom-left-radius: 3px;
- 	text-align: center;
- }
-
- .skillTitle span {
- 	display: block;
- 	background: rgba(0, 0, 0, 0.1);
- 	height: 2.7em;
- 	line-height: 2.7em;
- 	border-top-left-radius: 3px;
- 	border-bottom-left-radius: 3px;
- }
-
- .skillBarra {
- 	height: 2.7em;
- 	width: 0px;
- 	background: #6adcfa;
- 	border-radius: 3px;
- }
-
- .porcentaje {
- 	position: absolute;
- 	right: 1em;
- 	top: 0;
- 	font-size: 1em;
- 	height: 2.7em;
- 	line-height: 2.7em;
- 	color: rgba(0, 0, 0, 0.6);
- }
 
  /* Sección 'Portfolio' */
  #portfolio {
