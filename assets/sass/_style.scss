@@ -370,6 +370,7 @@ nav a:hover {
  	width: 23%;
  	margin-top: 30px;
  	margin-right: 60%;
+ 	background-color: #E0C5A4;
  }
 
  .seccion-1 {
@@ -396,7 +397,7 @@ nav a:hover {
  	margin-left: 18%;
  	margin-top: -.4em;
  }
-  /* Texto de la sección 'Sobre mí' */
+ /* Texto de la sección 'Sobre mí' */
  .mi {
  	font-family: 'Open Sans', sans-serif;
  	font-weight: 300;
@@ -407,6 +408,7 @@ nav a:hover {
  	line-height: 1.5em;
  	margin-bottom: 10%;
  	margin-left: 33%;
+
  }
  /* Elemento H1 de cada una de la secciones (su título) */
  .seccion {
@@ -416,12 +418,12 @@ nav a:hover {
  }
 
  /* Línea inferior al título de cada sección */
- .borde {
- 	width: 6em;
- 	height: 0.25em;
- 	background-color: #E0C5A4;
- 	border-radius: 10px;
- 	margin-top: 0.6em;
+ h2.codigo1{
+ 	margin-top: -1%;
+ 	margin-bottom: 6%;
+ 	margin-left: 18%;
+ 	color: #E0C5A4;
+ 	font-size: 15px;
  }
 
  /* Degradado que se mostrará en el fondo de 'Skills' */
@@ -478,6 +480,14 @@ nav a:hover {
  	color: #D5D5D8;
  }
 
+ h2.codigo{
+ 	margin-top: -1%;
+ 	margin-bottom: 6%;
+ 	color: #E0C5A4;
+ 	font-size: 15px;
+ }
+
+
  /* Elementos del portfolio */
  #items {
  	width: 90vw;
@@ -494,136 +504,139 @@ nav a:hover {
  }
 
  .efect {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 230px;
-  max-width: 315px;
-  max-height: 230px;
-  width: 100%;
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-}
-.efect * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.efect img {
-  opacity: 1;
-  width: 100%;
-}
-.efect:after,
-.efect:before,
-.efect figcaption:after,
-.efect figcaption:before {
-  background: #0a0a0a;
-  width: 25%;
-  position: absolute;
-  content: '';
-  opacity: 0;
-  -webkit-transition: all 0.3s steps(4);
-  transition: all 0.3s steps(4);
-  z-index: 1;
-  top: 100%;
-  bottom: 0;
-}
-.efect:before {
-  left: 0;
-  -webkit-transition-delay: 0;
-  transition-delay: 0;
-}
-.efect:after {
-  left: 25%;
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-.efect figcaption:before {
-  left: 50%;
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-  z-index: -1;
-}
-.efect figcaption:after {
-  left: 75%;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-  z-index: -1;
-}
-.efect figcaption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  padding: 30px;
-}
-.efect h2,
-.efect p,
-.efect .icons {
-  margin: 0;
-  width: 100%;
-  opacity: 0;
-}
-.efect h2 {
-  font-weight: 900;
-  text-transform: uppercase;
-}
-.efect p {
-  font-weight: 300;
-}
-.efect .icons {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  width: 100%;
-}
-.efect i {
-  padding: 0px 10px;
-  display: inline-block;
-  font-size: 24px;
-  color: #ffffff;
-  text-align: center;
-  opacity: 0.8;
-}
-.efect i:hover {
-  opacity: 1;
-}
-.efect:hover:after,
-.efect.hover:after,
-.efect:hover:before,
-.efect.hover:before,
-.efect:hover figcaption:after,
-.efect.hover figcaption:after,
-.efect:hover figcaption:before,
-.efect.hover figcaption:before {
-  top: 0;
-  opacity: 0.8;
-}
-.efect:hover figcaption h2,
-.efect.hover figcaption h2,
-.efect:hover figcaption p,
-.efect.hover figcaption p,
-.efect:hover figcaption .icons,
-.efect.hover figcaption .icons {
-  -webkit-transition-delay: 0.4s;
-  transition-delay: 0.4s;
-}
-.efect:hover figcaption h2,
-.efect.hover figcaption h2,
-.efect:hover figcaption .icons,
-.efect.hover figcaption .icons {
-  opacity: 1;
-}
-.efect:hover figcaption p,
-.efect.hover figcaption p {
-  opacity: 0.7;
-}
+ 	font-family: 'Source Sans Pro', Arial, sans-serif;
+ 	position: relative;
+ 	float: left;
+ 	overflow: hidden;
+ 	margin: 10px 1%;
+ 	min-width: 230px;
+ 	max-width: 315px;
+ 	max-height: 230px;
+ 	width: 100%;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	font-size: 16px;
+ 	border-radius: 8px;
+ }
+ .efect * {
+ 	-webkit-box-sizing: border-box;
+ 	box-sizing: border-box;
+ 	-webkit-transition: all 0.35s ease;
+ 	transition: all 0.35s ease;
+ 	border-radius: 8px;
+ }
+ .efect img {
+ 	opacity: 1;
+ 	width: 100%;
+ 	border-radius: 8px;
+ }
+ .efect:after,
+ .efect:before,
+ .efect figcaption:after,
+ .efect figcaption:before {
+ 	background: #0a0a0a;
+ 	width: 25%;
+ 	position: absolute;
+ 	content: '';
+ 	opacity: 0;
+ 	-webkit-transition: all 0.3s steps(4);
+ 	transition: all 0.3s steps(4);
+ 	z-index: 1;
+ 	top: 100%;
+ 	bottom: 0;
+ }
+ .efect:before {
+ 	left: 0;
+ 	-webkit-transition-delay: 0;
+ 	transition-delay: 0;
+ }
+ .efect:after {
+ 	left: 25%;
+ 	-webkit-transition-delay: 0.1s;
+ 	transition-delay: 0.1s;
+ }
+ .efect figcaption:before {
+ 	left: 50%;
+ 	-webkit-transition-delay: 0.2s;
+ 	transition-delay: 0.2s;
+ 	z-index: -1;
+ }
+ .efect figcaption:after {
+ 	left: 75%;
+ 	-webkit-transition-delay: 0.3s;
+ 	transition-delay: 0.3s;
+ 	z-index: -1;
+ }
+ .efect figcaption {
+ 	position: absolute;
+ 	top: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+ 	z-index: 2;
+ 	padding: 30px;
+ }
+ .efect h2,
+ .efect p,
+ .efect .icons {
+ 	margin: 0;
+ 	width: 100%;
+ 	opacity: 0;
+ }
+ .efect h2 {
+ 	font-weight: 900;
+ 	text-transform: uppercase;
+ }
+ .efect p {
+ 	font-weight: 300;
+ }
+ .efect .icons {
+ 	position: absolute;
+ 	bottom: 30px;
+ 	left: 0;
+ 	width: 100%;
+ }
+ .efect i {
+ 	padding: 0px 10px;
+ 	display: inline-block;
+ 	font-size: 24px;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	opacity: 0.8;
+ }
+ .efect i:hover {
+ 	opacity: 1;
+ }
+ .efect:hover:after,
+ .efect.hover:after,
+ .efect:hover:before,
+ .efect.hover:before,
+ .efect:hover figcaption:after,
+ .efect.hover figcaption:after,
+ .efect:hover figcaption:before,
+ .efect.hover figcaption:before {
+ 	top: 0;
+ 	opacity: 0.8;
+ }
+ .efect:hover figcaption h2,
+ .efect.hover figcaption h2,
+ .efect:hover figcaption p,
+ .efect.hover figcaption p,
+ .efect:hover figcaption .icons,
+ .efect.hover figcaption .icons {
+ 	-webkit-transition-delay: 0.4s;
+ 	transition-delay: 0.4s;
+ }
+ .efect:hover figcaption h2,
+ .efect.hover figcaption h2,
+ .efect:hover figcaption .icons,
+ .efect.hover figcaption .icons {
+ 	opacity: 1;
+ }
+ .efect:hover figcaption p,
+ .efect.hover figcaption p {
+ 	opacity: 0.7;
+ }
 
  /* Cada uno de los elementos */
  .item {
