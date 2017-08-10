@@ -342,12 +342,11 @@ nav a:hover {
  /* Subtítulo del header */
  #contenidoHeader h2 {
  	font-weight: 300;
- 	font-size: 1.5rem;
- 	margin-top: -1%;
- 	color: #FFF;
- 	line-height: 0.8em;
- 	letter-spacing: -0.04em;
- 	padding: 0.5em 3em;
+ 	font-size: 3.5rem;
+ 	margin-top: -2%;
+ 	letter-spacing: -.04em;
+ 	padding: .5em 3em;
+ 	color: white;
  	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
  }
 
@@ -406,9 +405,10 @@ nav a:hover {
  	max-width: 800px;
  	letter-spacing: 0.08em;
  	line-height: 1.5em;
- 	margin-bottom: 10%;
+ 	margin-bottom: 13%;
+ 	margin-top: -5%;
  	margin-left: 33%;
-
+ 	float:left;
  }
  /* Elemento H1 de cada una de la secciones (su título) */
  .seccion {

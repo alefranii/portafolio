@@ -216,9 +216,11 @@ $(function() {
 		}
 	}
 });
-
+//efecto hover para las fotos al pasar el mouse
 $(".hover").mouseleave(
   function () {
     $(this).removeClass("hover");
   }
 );
+
+//efecto texto sobre mi 
