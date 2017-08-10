@@ -386,6 +386,8 @@ nav a:hover {
  	-webkit-animation: fadeUpIn 4s;
 
  }
+
+
  @-webkit-keyframes fadeUpIn /* Safari and Chrome */
  {
  	from { opacity:0; top:150px; }
@@ -545,12 +547,13 @@ nav a:hover {
  #portfolio h1 {
  	font-weight: 300;
  	color: #D5D5D8;
+ 	padding-top: 2%;
  }
 
  h2.codigo{
  	margin-top: -1%;
  	margin-bottom: 6%;
- 	color: #E0C5A4;
+ 	color: $rosa;
  	font-size: 15px;
  }
 
